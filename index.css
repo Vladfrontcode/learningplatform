@@ -850,3 +850,102 @@ html {
         letter-spacing: -0.04em;
         color: #FFFFFF;
     }
+
+    .sprint-game-block {
+        width: 500px;
+        height: 562px;
+        margin-left: 710px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .sprint-game-block-main{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 100px;
+        gap: 40px;
+        width: 500px;
+        height: 500px;
+        border: 8px solid #C3DCE3;
+        border-radius: 400px;
+    }
+
+    .sprint-game-block-main__ellips {
+        box-sizing: border-box;
+        position: absolute;
+        width: 491.33px;
+        height: 460.02px;
+        
+        border: 8px solid #2B788B;
+        border-radius: 75%;
+    }
+
+    .pie {
+        display: inline-block;
+        margin: .5em;
+        width: 8em;
+        height: 8em;
+        position: relative;
+        border-radius: 50%;
+      }
+      
+      .pie:after {
+        border-radius: 50%;
+        display: block;
+        content: "";
+        background: #fff;
+        position: absolute;
+          left: .5em;
+        top: .5em;
+        height: 7em;
+        width: 7em;
+      }
+      
+      .p4 {
+        background-image: linear-gradient(270deg, transparent 50%, steelblue 50%),
+                          linear-gradient(180deg, #ddd 50%, steelblue 50%);
+      }
+
+    .audio-main-textblock__header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 10px;
+        width: 386px;
+        height: 48px;
+    }
+
+    .audio-main-textblock__mainheader {
+        width: 284px;
+        height: 48px;
+        font-family: 'Dela Gothic One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 100%;
+        letter-spacing: -0.04em;
+        color: #000000;
+    }
+
+    .audio-main-textblock__subheader {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 4px 8px;
+        gap: 10px;
+        width: 92px;
+        height: 25px;
+        background: #C3DCE3;
+        border-radius: 6px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 140%;
+        letter-spacing: -0.04em;
+        color: #2B788B;
+    }
