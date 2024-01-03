@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sprint game</title>
+    <title>Audiocall game</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
@@ -50,49 +50,66 @@
         </div>              
     </header>
     <div class="hgl"></div>
-    <div class="sprint-block">
-        <div class="sprint-main">
-            <div>
-                <img 
-                    srcset="images/sprint/run.png,
-                    images/sprint/run@2x.png 2x"
-                    src="images/sprint/run.png" 
-                    alt="error">
-            </div>
-            <div class="sprint-main-textblock">
-                <div class="sprint-main-textblock__header">
-                    <p class="sprint-main-textblock__mainheader">
-                        Sprint</p>
-                    <p class="sprint-main-textblock__subheader">
-                        speed task</p>
+    <div class="audiocall-game__main">
+        <div class="audiocall-game-main__playframe">
+            <div class="audiocall-game-main-playframe_playbutton pointer">             
+                <img src="images/audiocall/play1.png" alt="error"                
+                    onmouseout="this.src='images/audiocall/play1.png'" 
+                    onmouseover="this.src='images/audiocall/play2.png'">
+            </div> 
+            <div class="audiocall-game-main-playframe__heartshapedbox">
+                <div>
+                    <img 
+                        srcset="images/audiocall/heart.png,
+                        images/audiocall/heart@2x.png 2x"
+                        src="images/audiocall/heart.png" 
+                        alt="error">
                 </div>
-                <p class="sprint-main-textblock__text">
-                    Trains the skill of fast translation. You have to choose if the translation corresponds to the suggested word.</p>
-                <p class="sprint-main-textblock__choose">Choose a level:</p>
-                <div class="sprint-main-textblock-levels">
-                    <div class="sprint-main-textblock-levels__cirle_a1 pointer">
-                        A1   
-                    </div>
-                    <div class="sprint-main-textblock-levels__cirle_a2 pointer">
-                        A2
-                    </div>
-                    <div class="sprint-main-textblock-levels__cirle_b1 pointer">
-                        B1
-                    </div>
-                    <div class="sprint-main-textblock-levels__cirle_b2 pointer">
-                        B2
-                    </div>
-                    <div class="sprint-main-textblock-levels__cirle_c1 pointer">
-                        C1
-                    </div>
-                    <div class="sprint-main-textblock-levels__cirle_c2 pointer">
-                        C2
-                    </div>
+                <div>
+                    <img 
+                        srcset="images/audiocall/heart.png,
+                        images/audiocall/heart@2x.png 2x"
+                        src="images/audiocall/heart.png" 
+                        alt="error">
                 </div>
-                <a href="sprint_game.html"> <p class="sprint-main-textblock__button pointer">Get started</p> </a>
-            </div>
+                <div>
+                    <img 
+                        srcset="images/audiocall/heart.png,
+                        images/audiocall/heart@2x.png 2x"
+                        src="images/audiocall/heart.png" 
+                        alt="error">
+                </div>
+                <div>
+                    <img 
+                        srcset="images/audiocall/heart.png,
+                        images/audiocall/heart@2x.png 2x"
+                        src="images/audiocall/heart.png" 
+                        alt="error">
+                </div>
+                <div>
+                    <img 
+                        srcset="images/audiocall/heart.png,
+                        images/audiocall/heart@2x.png 2x"
+                        src="images/audiocall/heart.png" 
+                        alt="error">
+                </div>
+            </div>            
         </div>
-    </div>   
+        <div class="audiocall-game-main__wordsbox">
+            <div class="audiocall-game-main-wordsbox_word pointer">prêt hypothécaire</div>
+            <div class="audiocall-game-main-wordsbox_word pointer">correct</div>
+            <div class="audiocall-game-main-wordsbox_word pointer">selon laquelle</div>
+            <div class="audiocall-game-main-wordsbox_word pointer">citer</div>
+            <div class="audiocall-game-main-wordsbox_word pointer">nourriture</div>
+        </div>
+        <a href="audiocall_game_stat.html"><div class="audiocall-game-main_button">I don't know</div></a>
+        <div class="audiocall-game-main__text">
+            <div class="text-under-circle__star">*</div>
+            <div class="text-under-circle__l">You can also use the</div>
+            <div class="text-under-circle__m">1-5</div>
+            <div class="text-under-circle__r">keys on the keyboard</div>
+        </div>
+    </div>
     <footer>
         <div class="footer_background">
             <div class="footer-uplinetext">
